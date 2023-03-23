@@ -40,19 +40,9 @@ body{
 .contact-list{
     color:#434455 ;
 }
-.button-one{
-    background-color: #4D5AE5;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em ;
-    color: #fff;
-    cursor: pointer;
-}
+
 .pages:hover, .pages:focus,
-.contact-list:hover, .contact-list:focus,
-.button-one:hover, .button-one:focus{
+.contact-list:hover, .contact-list:focus{
     color:  #404bbf;
 }
 .section-one{
@@ -65,19 +55,39 @@ body{
     letter-spacing: 0.02em;
     color:#fff;
 }
-
+.button-one{
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em ;
+    color: #fff;
+    cursor: pointer;
+}
+.button-one:hover, .button-one:focus{
+    color:  #404BBF;
+}
 .hidden{
     visibility : hidden;
 }
-.section-two>h3{
+.title-two-section{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:#2e2f42;
 }
-.section-two>p{
+.text-two-section{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+.title-three-section{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:#2e2f42;
 }
