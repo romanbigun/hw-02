@@ -40,21 +40,6 @@ body{
 .contact-list{
     color:#434455 ;
 }
-.pages:hover, .pages:focus,
-.contact-list:hover, .contact-list:focus,
-.button-one:hover, .button-one:focus{
-    color:  #404bbf;
-}
-.section-one{
-    background-color:#2e2f42;
-}
-.heading{
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color:#fff;
-}
 .button-one{
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
@@ -65,11 +50,34 @@ body{
     color: #fff;
     cursor: pointer;
 }
+.pages:hover, .pages:focus,
+.contact-list:hover, .contact-list:focus,
+.button-one:hover, .button-one:focus{
+    color:  #404bbf;
+}
+.section-one, .section-two{
+    background-color:#2e2f42;
+}
+.heading{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color:#fff;
+}
+
 .hidden{
     visibility : hidden;
 }
 .section-two>h3{
-    font-weight: 500
-    font-size: 20px
-    line-height: 1.2
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+
+}
+.section-two>p{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
