@@ -35,14 +35,11 @@ body{
 
 }
 
-.pages:hover,
-.contact-list:hover{
+.pages:hover:focus,
+.contact-list:hover:focus{
     color:  #404bbf;
 }
-.pages:focus,
-.contact-list:focus{
-    color: #404bbf;
-}
+
 .contact{
     font-style: normal
 }
