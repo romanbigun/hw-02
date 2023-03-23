@@ -40,6 +40,16 @@ body{
 .contact-list{
     color:#434455 ;
 }
+.button-1{
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em ;
+    color: #fff;
+    cursor: pointer;
+}
 .pages:hover, .pages:focus,
 .contact-list:hover, .contact-list:focus,
 .button-1:hover, .button-1:focus{
@@ -54,14 +64,4 @@ body{
     text-align: center;
     letter-spacing: 0.02em;
     color:#fff;
-}
-.button-1{
-    background-color: #4D5AE5;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em ;
-    color: #fff;
-    cursor: pointer;
 }
