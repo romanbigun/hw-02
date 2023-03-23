@@ -41,10 +41,11 @@ body{
     color:#434455 ;
 }
 .pages:hover, .pages:focus,
-.contact-list:hover, .contact-list:focus{
+.contact-list:hover, .contact-list:focus,
+.button-one:hover, .button-one:focus{
     color:  #404bbf;
 }
-.section-1{
+.section-one{
     background-color:#2e2f42;
 }
 .heading{
@@ -54,7 +55,7 @@ body{
     letter-spacing: 0.02em;
     color:#fff;
 }
-.button-1{
+.button-one{
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -64,6 +65,11 @@ body{
     color: #fff;
     cursor: pointer;
 }
-.button-1:hover, .button-1:focus{
-    color:  #404BBF;
+.hidden{
+    visibility : hidden;
+}
+.section-two>h3{
+    font-weight: 500
+    font-size: 20px
+    line-height: 1.2
 }
