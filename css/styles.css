@@ -1,10 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap');
 
-:root
+:root{
+    --slate-color:#434455;
+    --iris-color:#4d5ae5;
+    --navy-blye-color:#2e2f42;
+    --ocean-color:#404bbf;
+    --white-color:#fff;
+    --cloud-color:#f4f4fd;
+
+}
 body{
-    background-color: #fff;
+    background-color: var(--white-color);
     font-family: "Roboto", sans-serif;
-    color: #434455;
+    color: var(--slate-color);
 }
 .logo{
     font-family: "Raleway", sans-serif;
@@ -13,7 +20,7 @@ body{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color:#4d5ae5;
+    color:var(--iris-color);
 }
 .link{
     text-decoration: none
@@ -23,7 +30,7 @@ body{
 }
 
 .colored-studio{
-    color: #2e2f42;
+    color: var(--navy-blye-color);
 }
 .contact{
     font-style: normal
@@ -33,45 +40,45 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:#2e2f42;
+    color:var(--navy-blye-color);
 
 }
 .contact-list{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:#434455 ;
+    color:var(--slate-color) ;
 }
 .color-list{
-    color:#434455 ;
+    color:var(--slate-color) ;
 }
 
 .pages:hover, .pages:focus,
 .contact-list:hover, .contact-list:focus{
-    color:  #404bbf;
+    color:  var(--ocean-color);
 }
 .section-one{
-    background-color:#2e2f42;
+    background-color:var(--navy-blye-color);
 }
 .heading{
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color:#fff;
+    color:var(--white-color);
 }
 .button-one{
-    background-color: #4D5AE5;
+    background-color: var(--iris-color);
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em ;
-    color: #fff;
+    color: var(--white-color);
     cursor: pointer;
 }
 .button-one:hover, .button-one:focus{
-    background-color: #404BBF 
+    background-color: var(--ocean-color) 
 }
 .hidden{
     visibility : hidden;
@@ -81,7 +88,7 @@ body{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color:#2e2f42;
+    color:var(--navy-blye-color);
 }
 .text-sections{
     font-size: 16px;
@@ -94,19 +101,19 @@ body{
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color:#2e2f42;
+    color:var(--navy-blye-color);
 }
 .section-four{
-    background-color: #F4F4FD;
+    background-color: var(--cloud-color);
 }
 .list-four{
-    background-color: #fff;
+    background-color: var(--white-color);
 }
 .foot{
-    background-color:#2e2f42;
+    background-color:var(--navy-blye-color);
 }
 .footer-studio{
-    color: #f4f4fd;
+    color: var(--cloud-color);
 }
 .btn{
     font-family: "Roboto", sans-serif;
@@ -114,11 +121,11 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color:#4d5ae5;
-    background-color:#F4F4FD;
+    color:var(--iris-color);
+    background-color:var(--cloud-color);
 }
 .btn:hover, .btn:focus{
-    color: #FFF;
-    background-color: #404BBF ;
-    cursor: pointer;
+    color: var(--white-color);
+    background-color: var(--ocean-color) ;
+
 }
