@@ -123,6 +123,7 @@ body{
     letter-spacing: 0.04em;
     color:var(--iris-color);
     background-color:var(--cloud-color);
+    cursor: pointer;
 }
 .btn:hover, .btn:focus{
     color: var(--white-color);
